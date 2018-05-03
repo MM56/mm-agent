@@ -101,7 +101,8 @@ class Agent {
 		this.browser = this._getBrowser(ua);
 		this.browserVersion = this._getBrowserVersion(this.browser, ua);
 		this.pixelRatio = this._getPixelRatio();
-
+		this.mobile = this.device !== 'desktop';
+		this.desktop = !this.mobile;
 		this.inspected = true;
 	}
 
@@ -134,7 +135,7 @@ class Agent {
 			return this.DEVICE.TYPES.DESKTOP;
 		}
 
-		if (Math.max(window.screen.width, window.screen.height) > 800) {
+		if (Math.max(window.screen.width, window.screen.height) > 813) {
 			return this.DEVICE.TYPES.TABLET;
 		}
 

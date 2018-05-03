@@ -1,6 +1,6 @@
 {
   "name": "@merci-michel/mm-agent",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Merci-Michel Agent",
   "main": "lib/index.js",
   "scripts": {
