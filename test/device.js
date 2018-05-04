@@ -23,7 +23,7 @@ test('device - tablet', t => {
 		ontouchmove: null,
 		ontouchend: null,
 		screen: {
-			width: 801,
+			width: 815,
 			height: 400,
 		}
 	};
@@ -38,7 +38,7 @@ test('device - desktop', t => {
 		ontouchmove: undefined,
 		ontouchend: undefined,
 		screen: {
-			width: 801,
+			width: 815,
 			height: 400,
 		}
 	};
